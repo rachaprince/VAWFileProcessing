@@ -1,0 +1,55 @@
+<#import "../layout/defaultLayout.ftl.html" as layout> 
+<@layout.myLayout "Home page">    
+
+<div class="splash-container">
+	<div class="splash">
+		<h1 class="splash-head">V.A.W. Data Processing</h1>
+		</div>
+</div>
+
+<div class=content-wrapper>
+	<div class="pure-g">
+		<div class="pure-u-1 upload">
+			<div class="content-head">
+				Upload 
+			</div>
+			</div>
+			<div class="pure-u-1-2 upload">
+			<h3>New Form </h3>
+			<p>
+			//Coming soon-- generates an excel spreadsheet that automatically fits requirements for statistical analysis, based on medications brought on the trip.
+			</p>
+			</div>
+			<div class="pure-u-1-2  upload">
+			<h3>Existing Excel Sheet </h3>
+			
+			<form method="post" enctype="multipart/form-data" action="/uploadFinish">
+			    Please specify file to upload: <input type="file" name="upfile"><br />
+			    <input type="submit" value="submit">
+			</form>
+		
+			</div>
+		</div>
+		<div class="pure-u-1 index" id="analyze">
+			<div class="content-head">
+			<h3>Analyze</h3>
+			</div>
+			<p>
+			<a id="analysisIndex" href="#">View All Previous Analysis</a>
+			</p>
+			<p>
+			Search
+			</p>
+		</div>
+		<div class="pure-u-1 index" id="predict">
+			<div class="content-head">
+			<h3>Predict</h3>
+			</div>
+			<a href="#">View Predictions by Community</a>
+			<p>
+			Search
+			</p>
+		</div>
+	</div>
+</div>
+</@layout.myLayout>

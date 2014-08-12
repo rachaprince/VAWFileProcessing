@@ -1,0 +1,136 @@
+/* Add additional stylesheets below
+Color scheme hex codes:
+182360
+525ea1
+303d82
+060e38
+020517
+-------------------------------------------------- */
+body {
+	background-color: #0A404A;
+	font-size: 20px;
+}
+
+form{
+	margin: 0 auto; 
+	width:250px;	
+	display: inline-block;
+	text-align: justify;
+	font-size: 20px;
+}
+.index{
+    background-size: cover;
+    height: 300px;
+    position: relative;
+ }
+
+.splash-container {
+	background-image: url("banner.jpg");
+	background-size: cover;
+	z-index: 1;
+	overflow: hidden;
+	/* The following styles are required for the "scroll-over" effect */
+	width: 100%;
+	height: 75%;
+	top: 0;
+	left: 0;
+	position: fixed !important;
+}
+
+.splash {
+	/* absolute center .splash within .splash-container */
+	width: 45%;
+	height: 40%;
+	position: absolute;
+	bottom: 0; 
+	text-align: left;
+	text-transform: uppercase;
+}
+
+/* This is the main heading that appears on the blue section */
+.splash-head {
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	/*-webkit-text-stroke: 1px black;*/
+	border: 3px solid white;
+	padding: 1em 1.6em;
+	font-weight: 100;
+	border-radius: 5px;
+	line-height: 1em;
+	background-color: gray;
+	opacity: .7;
+	margin-bottom: 0px;
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+	color: white;
+	font-size: 20px;
+	/*-webkit-text-stroke: .5px black;*/
+	letter-spacing: 0.05em;
+	opacity: 0.8;
+}
+
+.content-wrapper {
+	/* These styles are required for the "scroll-over" effect */
+	position: absolute;
+	top: 87%;
+	width: 100%;
+	min-height: 12%;
+	z-index: 2;
+	background: white;
+
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	text-decoration: underline;
+	margin: 20px;
+	letter-spacing: 0.05em;
+}
+
+#banner {
+    background-image: url("banner.jpg");
+}
+
+#bannerText {
+	position: absolute;
+	bottom: 0px;
+	padding: 20px;
+    font-family: "Impact", serif;
+    font-size: 70px;
+    color: white;
+    font-weight: thick;
+}
+
+.upload {
+	background-color: #0A404A;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.pure-u-1-2{
+	border-style: none dashed dashed dashed;
+	border-color: white;
+}
+
+#analyze{
+	background-color: #49808B;
+	text-align: center;
+}
+
+#analysisIndex{
+	color: #03233D;
+}
+
+#predict {
+	background-color: #011D22;
+	text-align: center; 
+}
